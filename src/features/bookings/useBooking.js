@@ -9,7 +9,7 @@ export function useBooking() {
     isPending,
     error,
   } = useQuery({
-    queryKey: ["bookings"],
+    queryKey: ["bookings", bookingId],
     queryFn: () => getBooking(bookingId),
   });
   return { isPending, booking, error };
