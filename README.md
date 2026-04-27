@@ -61,8 +61,8 @@ Add a `.env` file with your Supabase credentials:
 ```env
 VITE_SUPABASE_URL=your_url
 VITE_SUPABASE_KEY=your_key
+```
 
 ## Credits
 
 Built following Jonas Schmedtmann's [Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/) on Udemy.
-```
