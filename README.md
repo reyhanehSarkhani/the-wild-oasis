@@ -45,21 +45,24 @@ The Wild Oasis is an internal hotel management system designed for hotel staff t
 
 ### Dark mode
 
+- Toggle between light and dark themes for better user experience
+
 ## Setup & Installation
 
-\```bash
+```bash
 git clone https://github.com/reyhanehSarkhani/the-wild-oasis.git
 cd the-wild-oasis
 npm install
 npm run dev
-\```
+```
 
 Add a `.env` file with your Supabase credentials:
-\```
+
+```env
 VITE_SUPABASE_URL=your_url
 VITE_SUPABASE_KEY=your_key
-\```
 
 ## Credits
 
 Built following Jonas Schmedtmann's [Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/) on Udemy.
+```
