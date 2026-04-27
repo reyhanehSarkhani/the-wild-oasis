@@ -1,16 +1,65 @@
-# React + Vite
+# 🏝️ The Wild Oasis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern hotel management dashboard built with React.
 
-Currently, two official plugins are available:
+This project was developed as part of the **React course by Jonas Schmedtmann** and focuses on real-world frontend architecture and scalable React applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 About the Project
 
-## React Compiler
+The Wild Oasis is an internal hotel management system designed for hotel staff to manage daily operations efficiently.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React (Vite)
+- React Router
+- React Query (TanStack Query)
+- Styled Components
+- Supabase (Authentication + Database)
+- React Hook Form
+- Recharts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+### 🏨 Cabin Management
+
+- Create, edit, and delete cabins
+- Upload cabin images
+- Manage pricing and capacity
+
+### 📅 Bookings System
+
+- Create and manage reservations
+- Check-in / Check-out flow
+- Filtering and sorting
+
+### 🔐 Authentication
+
+- Secure login system using Supabase
+- Protected routes for authorized users
+
+### 📊 Dashboard
+
+- Revenue and occupancy overview
+- Basic analytics with charts
+- Real-time data fetching
+
+### Dark mode
+
+## Setup & Installation
+
+\```bash
+git clone https://github.com/reyhanehSarkhani/the-wild-oasis.git
+cd the-wild-oasis
+npm install
+npm run dev
+\```
+
+Add a `.env` file with your Supabase credentials:
+\```
+VITE_SUPABASE_URL=your_url
+VITE_SUPABASE_KEY=your_key
+\```
+
+## Credits
+
+Built following Jonas Schmedtmann's [Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/) on Udemy.
