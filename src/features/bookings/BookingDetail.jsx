@@ -37,6 +37,7 @@ function BookingDetail() {
     "checked-out": "silver",
   };
   if (isPending) return <Spinner />;
+  if (!booking) return <Empty resourceName="booking" />;
 
   const { status, id: bookingId } = booking;
 
