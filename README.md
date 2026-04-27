@@ -4,6 +4,15 @@ A modern hotel management dashboard built with React.
 
 This project was developed as part of the **React course by Jonas Schmedtmann** and focuses on real-world frontend architecture and scalable React applications.
 
+## Live demo
+
+https://the-wild-oasis-reyhaneh.vercel.app/login
+
+## Demo Login
+
+Email: demo@thewildoasis.com  
+Password: Demo1234
+
 ## 📌 About the Project
 
 The Wild Oasis is an internal hotel management system designed for hotel staff to manage daily operations efficiently.
