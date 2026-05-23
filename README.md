@@ -27,6 +27,13 @@ The Wild Oasis is an internal hotel management system designed for hotel staff t
 - React Hook Form
 - Recharts
 
+## Screenshots
+
+![Dashboard](./public/dashboard.png)
+![Bookings](./public/bookings.png)
+![Cabins](./public/cabins.png)
+![Check-in](./public/checkin.png)
+
 ## Features
 
 ### 🏨 Cabin Management
